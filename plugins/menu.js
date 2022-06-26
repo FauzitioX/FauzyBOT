@@ -1,3 +1,4 @@
+Ini
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let path = require('path')
@@ -35,7 +36,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan %name! 👋
+Hai, %ucapan %name! 
   
 *Waktu:* 
 %wib WIB
@@ -51,8 +52,8 @@ Hai, %ucapan %name! 👋
 %readmore`.trimStart(),
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
-  footer: '\n',
-  after: `*Made by ♡*
+  footer: 'FauzyOfficial',
+  after: `*Made By Fauzy-XD*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
