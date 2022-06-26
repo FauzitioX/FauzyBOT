@@ -1,8 +1,7 @@
 let handler = async m => m.reply(`
-╭─「 Donasi • Gopay/Pulsa 」
+╭─「 Donasi • Gopay 」
 │ •  [0857-9167-7204]
-│ •  [0857-0163-9070]
-╰────
+╰──── FauzyBOT - MD ─────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
